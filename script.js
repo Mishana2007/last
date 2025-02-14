@@ -276,9 +276,9 @@ document.addEventListener("DOMContentLoaded", () => {
         let currentIndex = 0;
 
         const images = {
-            "HERMES": ["yacht-hecmes.jpg", "yacht-hecmes2.jpg", "yacht-hecmes3.jpg"],
-            "ECLIPSE": ["ECLIPSE.jpg", "ECLIPSE1.jpg", "ECLIPSE2.jpg"],
-            "Катер Velvette": ["VELVETTE.jpg", "VELVETTE1.jpg", "VELVETTE2.jpg"]
+            "HERMES": ["yacht-hecmes.jpg", "yacht-hecmes2.jpg", "yacht-hecmes3.jpg", "yacht-hecmes4.jpg"],
+            "ECLIPSE": ["ECLIPSE.jpg", "ECLIPSE1.jpg", "ECLIPSE2.jpg", "ECLIPSE3.jpg"],
+            "Катер Velvette": ["VELVETTE.jpg", "VELVETTE1.jpg", "VELVETTE2.jpg", "VELVETTE3.jpg"]
         };
 
         if (!images[yachtName] || images[yachtName].length === 0) return;
