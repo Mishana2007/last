@@ -1,19 +1,50 @@
+/* Общий стиль */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    overflow-x: hidden;
-}
-
-
+/* Заголовки, логотип */
 h1, h2, h3, .logo {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Cinzel', serif;
     font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+/* Цена */
+.catalog-price {
+    font-family: 'Lexend', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #E63946; /* Красивый премиальный красный */
+}
+
+/* Основной текст */
+p, .description, .review-comment {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444;
+}
+
+/* Кнопки */
+.button, .btn-rent, .btn-details {
+    font-family: 'Lexend', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 12px 24px;
+    border-radius: 6px;
+    transition: background 0.3s ease;
+}
+
+/* Логотип */
+.logo {
+    font-size: 38px;
+    font-family: 'Cinzel', serif;
+    color: #1a1a1a;
+    letter-spacing: 1px;
 }
 
 .navbar {
@@ -618,8 +649,24 @@ color: black;
 }
 
 .btn-rent {
-background: #ffd700;
-color: black;
+    background: rgb(154,242,207);
+    background: linear-gradient(74deg, rgba(154,242,207,1) 12%, rgba(60,214,246,1) 93%);
+    color: black;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 12px 24px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Эффект при наведении */
+.btn-rent:hover {
+    background: linear-gradient(74deg, rgba(60,214,246,1) 12%, rgba(154,242,207,1) 93%);
+    transform: scale(1.05);
+    box-shadow: 0px 4px 10px rgba(60, 214, 246, 0.4);
 }
 
 /* Иконки */
